@@ -1,0 +1,57 @@
+.container{
+    background: #6874D0;
+    width: 97.6%;
+    height: 44.8em;
+    padding: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    background: #8690DA;
+    width: fit-content;
+    height: 250px;
+    opacity: 0.9;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 40px;
+}
+.user-name{
+    width: 468px;
+    height: 47px;
+    border-radius: 2px;
+    background: #FFFFFF;
+}
+.text-content{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.password{
+    width: 468px;
+    height: 47px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+}
+
+.arrow-button{
+    width: 468px;
+    height: 47px;
+    border-radius: 42px;
+    background: #3AE8E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
